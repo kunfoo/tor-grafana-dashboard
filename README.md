@@ -1,6 +1,8 @@
 # Tor node Grafana dashboard
 
 Grafana dashboard to display stats from Tor node stored in prometheus DB  
+![Dashboard view](Dashboard_full.jpg "Dashboard view") 
+
 
 ## Getting started
 
