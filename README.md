@@ -18,9 +18,9 @@ Prometheus exporter was only supported in tor version 0.4.7.1-alpha on time of w
     MetricsPortPolicy accept y.y.y.y
 
     ```
-    x.x.x.x is ip address where Tor process will listen for connection from prometheus.<br> 
-    **DO NOT USE PUBLIC IP THERE**. Use 127.0.0.1 if TOR and prometheuts are running at same host
-    y.y.y.y is ip from where TOR will accept connectios. Keep it as restrictive as possible. Use 127.0.0.1 if TOR and prometheuts are running at same host
+    *x.x.x.x* is ip address where Tor process will listen for connection from prometheus.<br> 
+    **DO NOT USE PUBLIC IP THERE**. Use 127.0.0.1 if TOR and prometheuts are running at same host<br>
+    *y.y.y.y* is ip from where TOR will accept connectios. Keep it as restrictive as possible. Use 127.0.0.1 if TOR and prometheuts are running at same host
 1. Restart TOR proccess
 1. Confugure job for prometheuts to scrap data from tor
    Add following to *prometheus.yml* configuration file
