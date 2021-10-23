@@ -9,8 +9,8 @@ Grafana dashboard to display stats from Tor node stored in prometheus DB
 Based on [this guide on torproject.org](https://support.torproject.org/id/relay-operators/relay-bridge-overloaded/)
 Prometheus exporter was only supported in tor version 0.4.7.1-alpha on time of writing
 
-1. Enable prometheuth exporter on tor process
-    "It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users. Please take extra precaution and care when opening this port. Set a very strict access policy with MetricsPortPolicy and consider using your operating systems firewall features for defense in depth."
+1. Enable prometheuth exporter on tor process<br>
+    "It's important to understand that exposing tor metrics publicly is dangerous to the Tor network users. Please take extra precaution and care when opening this port. Set a very strict access policy with MetricsPortPolicy and consider using your operating systems firewall features for defense in depth."<br>
     Add or uncoment folowing two tines to *torrc* file 
     ```text
     ## Prometheus exporter
