@@ -44,6 +44,6 @@ Prometheus.
 
 ## Import the Grafana dashboard
 Finally, download
-[tor_stats.json](https://raw.githubusercontent.com/kunfoo/tor-grafana-dashboard/refs/heads/fork/tor_stats.json) from this
+[tor_stats.json](https://raw.githubusercontent.com/kunfoo/tor-grafana-dashboard/refs/heads/main/tor_stats.json) from this
 repository and import it as a new dashboard in Grafana. Point it to your Prometheus data source.
 
