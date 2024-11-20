@@ -1,4 +1,8 @@
-# Tor node Grafana dashboard
+# ARCHIVED
+
+**This project moved to https://codeberg.org/kunfoo/tor-grafana-dashboard**
+
+## Tor node Grafana dashboard
 
 **This is a fork of https://gitlab.com/TheHolm/tor-node-grafana-dashboard**
 
